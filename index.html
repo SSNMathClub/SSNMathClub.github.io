@@ -9,9 +9,10 @@
   <meta content="" name="description">
 
   <!-- Favicons -->
-  <link href="img/ssn.svg" rel="icon">
-  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
+  <link rel="apple-touch-icon" sizes="180x180" href="./fav/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./fav/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="./fav/favicon-16x16.png">
+  <link rel="manifest" href="./fav/site.webmanifest">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
     rel="stylesheet">
@@ -29,6 +30,8 @@
 </head>
 
 <body>
+
+
   <header id="header">
     <div class="container">
       <div id="logo" class="pull-left">
@@ -36,13 +39,17 @@
           <div class="ssn"><img src="./img/SSN.svg" style="width:90px"></div>
         </a>
       </div>
-      <div id="exl" class="exlo"><img src="./img/exlog.png" style="width:65px"></div>
+      <div id="exl" class="exlo padd"><img src="./img/exlog.png" style="width:65px"></div>
       <nav id="nav-menu-container">
         <ul class="nav-menu">
           <li class="menu-active"><a href="#hero">Home</a></li>
           <li><a href="#about">About Us</a></li>
+          <li><a href="#">Invitation</a></li>
+          <li><a href="https://drive.google.com/file/d/1zUOc9_a4IeTLpqweRoJ6fgL7dYJHPh62/view?usp=sharing">Rule Book</a>
+          </li>
+
           <li><a href="#services">Event Details</a></li>
-          <li><a href="">Gallery</a></li>
+          <!-- <li><a href="">Gallery</a></li> -->
           <li><a href="#team">Core Committee</a></li>
           <li><a href="#contact">Contact Us</a></li>
         </ul>
@@ -96,7 +103,13 @@
           SSN has been consistently proving its class by retaining the top position among Anna University affiliated
           Engineering Colleges in Tamilnadu.
         </div>
-        <div class="flexc">
+        <style>
+          .square {
+            flex: auto;
+
+          }
+        </style>
+        <div class="flexc square">
           <div class="">
             <div class="">
               <img class="imgf" src="./img/founder.88041406.svg" alt="Dr. Shiv Nadar" scale="0">
@@ -125,6 +138,18 @@
             <div class="textf">
               <h5 class="">Dr. V.E. Annamalai</h5>
               Principal
+              <p><strong>SSN College of Engineering</strong></p>
+            </div>
+          </div>
+
+          <div class="">
+            <div class="">
+              <img style="margin-left: 2vw; margin-top: 4vh; height: 130px; margin-bottom: 3vh; width: 150px;"
+                class="imgf" src="./img/vice.jpeg" alt="Dr. S. Radha" scale="0">
+            </div>
+            <div class="textf">
+              <h5 class="">Dr. S. Radha</h5>
+              Vice Principal
               <p><strong>SSN College of Engineering</strong></p>
             </div>
           </div>
@@ -203,8 +228,9 @@
             <div class="box">
               <h3 id="gal" style="text-align: left;" class="abouts">Website</h3>
               <p style="text-align: left;font-weight: 500; font-size: 20px;line-height: 2.5rem;">
-                <a href="https://github.com/vspr14" style="color:#111">V S Pranav - 2nd year CSE</a><br>
-                <a href="https://github.com/vspr14" style="color:#111">Sanjai Balajee - 2nd year CSE</a>
+                <a href="https://github.com/vspr14" style="color:#111">V S Pranav - 2nd year CSE</a>
+
+                <a href="https://github.com/sanjaibalajee" style="color:#111"><br>Sanjai Balajee - 2nd year CSE</a>
               </p>
             </div>
           </div>
@@ -364,30 +390,30 @@
         </div>
         <div id="right_event">
           <p>
-          <ul>
-            <li><span style="font-weight: 600;">Maximum of three members</span> in a team.</li>
-            <li>Registration fee is Rs. 250 per team. The registration amount can be paid either online using UPI or
-              on-spot on the day of the symposium</li>
-            <li>Before registering in the google form, kindly make your team and then follow the link. Only one member
-              must register per team with all
-              the details of the team members.
-            </li>
-            <li>There are <span style="font-weight: 600;">two rounds, Preliminary and Finals.</span> </li>
-            <li><span style="font-weight: 600;">Round 1: Preliminary</span> </li>
-            <li>Contains 50 to 75 questions of MCQ type with negative marking.</li>
-            <li>Basic Aptitude, logical Reasoning and basic Mathematics questions. Duration: 60 - 90 mins.</li>
-            <li>Out of the all registered teams, <span style="font-weight: 600;">six teams will be selected for Round
-                2.</span></li>
-            <li><span style="font-weight: 600;">Round 2: Finals</span></li>
-            <li>Some complex questions which further consisting of two rounds. Each team will be posted questions in 6
-              different channels of MS Teams
-              by our volunteers and after the end of each round you will be notified your scores.
-            </li>
-            <li>Register now using the <span style="font-weight: 600;"><a
-                  href="https://docs.google.com/forms/d/e/1FAIpQLSfSh_lh3O2Mbn0wHkROI-uZ8meC9qlWvuxCcOzzBwBzF5quNA/viewform">Google
-                  Form</a></span></li>
-            <li><span style="font-weight: 600;">The total cash prize worth Rs. 35,000.</span></li>
-          </ul>
+            <ul>
+              <li><span style="font-weight: 600;">Maximum of three members</span> in a team.</li>
+              <li>Registration fee is Rs. 250 per team. The registration amount can be paid either online using UPI or
+                on-spot on the day of the symposium</li>
+              <li>Before registering in the google form, kindly make your team and then follow the link. Only one member
+                must register per team with all
+                the details of the team members.
+              </li>
+              <li>There are <span style="font-weight: 600;">two rounds, Preliminary and Finals.</span> </li>
+              <li><span style="font-weight: 600;">Round 1: Preliminary</span> </li>
+              <li>Contains 50 to 75 questions of MCQ type with negative marking.</li>
+              <li>Basic Aptitude, logical Reasoning and basic Mathematics questions. Duration: 60 - 90 mins.</li>
+              <li>Out of the all registered teams, <span style="font-weight: 600;">six teams will be selected for Round
+                  2.</span></li>
+              <li><span style="font-weight: 600;">Round 2: Finals</span></li>
+              <li>Some complex questions which further consisting of two rounds. Each team will be posted questions in 6
+                different channels of MS Teams
+                by our volunteers and after the end of each round you will be notified your scores.
+              </li>
+              <li>Register now using the <span style="font-weight: 600;"><a
+                    href="https://docs.google.com/forms/d/e/1FAIpQLSfSh_lh3O2Mbn0wHkROI-uZ8meC9qlWvuxCcOzzBwBzF5quNA/viewform">Google
+                    Form</a></span></li>
+              <li><span style="font-weight: 600;">The total cash prize worth Rs. 35,000.</span></li>
+            </ul>
           </p>
           <!-- <h1 style="text-align: center">Registrations closed!!</h1> -->
         </div>
