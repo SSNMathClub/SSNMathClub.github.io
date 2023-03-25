@@ -5,7 +5,16 @@ body {
 }
 
 a {
-  color: #2dc997;
+  color: #03C988;
+}
+body {
+  background: #fff;
+  color: #666666;
+  font-family: "Open Sans", sans-serif;
+}
+
+.aform {
+  color: #E90064;
 }
 
 .exlo {
