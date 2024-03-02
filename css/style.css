@@ -18,14 +18,14 @@ body {
   color: #e90064;
 }
 
-.exlo {
+/* .exlo {
   position: absolute;
   top: 0.5vw;
   left: 90vw;
   padding-left: 40px;
   padding-right: 5px;
   padding-bottom: 8px;
-}
+} */
 
 #right_event {
   padding-top: 12vh;
@@ -38,30 +38,6 @@ body {
   padding-top: 20px;
   padding-bottom: 50px;
   padding-right: 50px;
-}
-
-@media (max-width: 990px) {
-  #exl {
-    left: 40vw;
-    top: 2vw;
-  }
-
-  /* #event_div {
-    display: block;
-  }
-
-  #left_Event {
-    width: 80vh;
-  }
-
-  #right_Event {
-    width: 80vh;
-  }
-
-  #event_img {
-    max-width: 80vw;
-    max-height: 80vh;
-  } */
 }
 
 a:hover,
@@ -153,6 +129,7 @@ h6 {
 }
 
 #header #logo {
+  display: flex;
   float: left;
 }
 
