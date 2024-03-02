@@ -115,11 +115,11 @@ h6 {
 .back-to-top {
   position: fixed;
   display: none;
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.2);
   color: #fff;
   padding: 6px 12px 9px 12px;
   font-size: 16px;
-  border-radius: 100px;
+  border-radius: 2px;
   right: 15px;
   bottom: 15px;
   transition: background 0.5s;
@@ -560,7 +560,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .flexc {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .textf {
@@ -1352,8 +1352,6 @@ b {
 #footer .credits {
   padding-top: 10px;
   text-align: center;
-  display: flex;
-  flex-direction: column;
   font-size: 13px;
   color: #ccc;
 }
