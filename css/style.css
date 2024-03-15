@@ -748,12 +748,16 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .collapsible {
-  background-color: #323232;
+  /* background-color: #323232; */
+  background-color: #000;
   color: white;
   cursor: pointer;
   padding: 18px;
-  width: 100%;
+  width: 98%;
+  border-radius: 20px;
+  margin: 0 10px 5px 10px;
   border: none;
+  box-sizing: border-box;
   text-align: left;
   outline: none;
   font-size: 20px;
@@ -763,6 +767,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .content p,
 b {
   font-size: 20px !important;
+
   text-align: justify;
 }
 
@@ -787,6 +792,9 @@ b {
   padding: 0px 20px;
   max-height: 0;
   overflow: hidden;
+  margin: 0 10px 10px 10px;
+  width: 98%;
+  border-radius: 20px;
   transition: max-height 0.2s ease-out;
   background-color: #f1f1f1;
 }
@@ -1415,28 +1423,5 @@ iframe {
 
   #about .about-container .title {
     padding-top: 15px;
-  }
-}
-
-@media screen and (max-width: 480px) {
-  .imgallery {
-    width: 320px;
-    height: 250px;
-  }
-
-  .flexc {
-    justify-content: center;
-  }
-
-  iframe {
-    width: 320px;
-    height: 250px;
-    margin-bottom: 100px;
-  }
-
-  .content p,
-  b {
-    font-size: 20px;
-    text-align: justify;
   }
 }
